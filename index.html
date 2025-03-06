@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header class="sticky-header">
+            <h1>Lista de Tareas</h1>
+        </header>
+        <section class="form">
+            <input type="text" id="new-task" placeholder="New task">
+            <button type="submit" disabled>Add</button>
+        </section>
+        <section class="task-list">
+            <ul id="TaskList">
+
+
+                <li>
+                    <div class="checkbox-contain">
+                        <input type="checkbox" id="micheckbox" name="micheckbox">
+                        <label for="micheckbox">Task 1</label>
+                    </div>
+                    <button class="delete">Delete</button>
+                </li>
+
+                <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="micheckbox" name="micheckbox">
+                    <label for="micheckbox">Task 2</label>
+                </div>
+                <button class="delete">Delete</button>
+                </li>
+
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="micheckbox" name="micheckbox">
+                        <label for="micheckbox">Task 3</label>
+                    </div>
+                    <button class="delete">Delete</button>
+                    </li>
+
+                <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="micheckbox" name="micheckbox">
+                    <label for="micheckbox">Task 4</label>
+                </div>
+                <button class="delete">Delete</button>
+                </li>
+
+                <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="micheckbox" name="micheckbox">
+                    <label for="micheckbox">Task 5</label>
+                </div>
+                <button class="delete">Delete</button>
+                </li>
+
+                <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="micheckbox" name="micheckbox">
+                    <label for="micheckbox">Task 6</label>
+                </div>
+                <button class="delete">Delete</button>
+                </li>
+
+            </ul>
+        </section>
+        
+        <footer>
+            <p id="Task-counter">Tasks: <span id="Totaltask">6</span></p>
+        </footer>
+
+        <footer>
+            <p id="AlreadyTaskCounter">Already tasks: <span id="AlreadyTasks">1</span></p>
+        </footer>
+
+        <footer>
+            <p id="ToDoTasksCounter">To do tasks: <span id="ToDoTasks">5</span></p>
+        </footer>
+
+    </div>
+</body>
+</html>
