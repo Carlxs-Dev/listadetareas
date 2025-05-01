@@ -13,7 +13,7 @@
         </header>
         <section class="form">
             <input type="text" id="new-task" placeholder="New task">
-            <button type="submit" disabled>Add</button>
+            <button type="submit" class="Add-btn">Add</button>
         </section>
         <section class="task-list">
             <ul id="TaskList">
@@ -71,15 +71,15 @@
         </section>
         
         <footer>
-            <p id="Task-counter">Tasks: <span id="Totaltask">6</span></p>
-        </footer>
-
-        <footer>
-            <p id="AlreadyTaskCounter">Already tasks: <span id="AlreadyTasks">1</span></p>
-        </footer>
-
-        <footer>
-            <p id="ToDoTasksCounter">To do tasks: <span id="ToDoTasks">5</span></p>
+            <div class="counters">
+            <span id="Task-counter">0</span> Tasks 📃
+            </div>
+            <div class="counters">
+            <span id="AlreadyTaskCounter">0</span> Already tasks ✅
+            </div>
+            <div class="counters">
+            <span id="ToDoTasksCounter">0</span> To do tasks❗
+            </div>
         </footer>
 
     </div>
